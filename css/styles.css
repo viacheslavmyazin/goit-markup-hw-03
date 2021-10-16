@@ -148,15 +148,14 @@ color: var(--second-text-color);
 /* ----------------------hero----------------- */
 
 .hero {
-
     padding: 200px 0;
     text-align: center;
-    /* background: #2F303A; */
+    background: #2F303A;
     
 }
 
 .hero-container {
-    background: #2F303A;
+    /* background: #2F303A; */
     }
 
 
