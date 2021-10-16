@@ -151,13 +151,13 @@ color: var(--second-text-color);
 
     padding: 200px 0;
     text-align: center;
-    background: #2F303A;
+    /* background: #2F303A; */
     
 }
 
-/* .hero-container {
-
-    } */
+.hero-container {
+    background: #2F303A;
+    }
 
 
 .headlines { 
@@ -264,7 +264,7 @@ color: var(--headlines-text-color);
 
 .activity {
     padding-top: 94px;
-    padding-bottom: 188px;
+    padding-bottom: 94px;
 }
 
 .activity-headlines {
@@ -313,8 +313,74 @@ color: var(--second-text-color);
 }
 
 
-/* -------------footer----------------- */
+/* team 91 */
 
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.about-teams {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.teams-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px; 
+}
+
+.team-photo {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-photo-description {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.team-pages {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+/* -------------footer 160----------------- */
+.header-logo-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.93;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+
+
+
+.footer-container {
+    background-color: #2F303A;
+}
+
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-adress {
+    padding-top: 20px;
+}
+
+.footer-list .footer-item + .footer-item {
+    padding-top: 9px;
+}
 
 
 .footer-link {
@@ -334,7 +400,7 @@ color: var(--primary-title-color);
 }
 
 .footer-list {
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
     font-style: normal;
 }
 
