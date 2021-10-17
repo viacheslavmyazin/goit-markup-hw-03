@@ -450,6 +450,7 @@ font-family: inherit;
 }
 
 .button-chapter {
+padding: 6px 22px;
 min-width: 73px;
 font-weight: 500;
 font-size: 16px;
