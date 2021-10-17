@@ -55,6 +55,12 @@ color:var(--header-color);
     margin-bottom: 25px;
 }
 
+.header-line {
+    border-bottom: 1px solid #ECECEC;
+}
+
+
+
 .header-logo {
     margin-right: 93px;
 }
