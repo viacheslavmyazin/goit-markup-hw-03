@@ -37,7 +37,7 @@ body {
     text-decoration: none;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -523,7 +523,5 @@ color: var(--second-text-color);
     width: 370px;
     border: 1px solid #EEEEEE;;
     border-top: 0;
-
-
 
 
