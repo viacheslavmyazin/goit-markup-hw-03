@@ -501,7 +501,7 @@ color: var(--second-text-color);
 
 .photo-item {
     flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
+    width: 370px;
 }
 
 .photo-item:nth-child(3n) {
@@ -514,12 +514,11 @@ color: var(--second-text-color);
 
 .photo-item {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .photo-description {
-    padding-top: 20px;
-    padding-bottom: 20px;
     padding: 20px 24px;
     width: 370px;
     border: 1px solid #EEEEEE;;
