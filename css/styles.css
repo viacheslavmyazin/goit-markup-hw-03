@@ -55,13 +55,12 @@ color:var(--header-color);
 
 
 .header {
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-line {
     border-bottom: 1px solid #ECECEC;
-    padding-bottom: 25px;
 }
 
 
@@ -207,7 +206,8 @@ cursor: pointer;
 }
 
 
-.about-container {
+
+.about {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -281,7 +281,7 @@ color: var(--headlines-text-color);
 }
 
 .activity {
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 94px;
 }
 
@@ -359,13 +359,13 @@ color: var(--second-text-color);
 
 .team-photo-description {
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 .team-pages {
     padding-top: 10px;
     text-align: center;
-    padding-bottom: 30px;
 }
 
 
@@ -388,10 +388,7 @@ color: var(--second-text-color);
 
 
 .footer {
-    margin-top: 94px;
     padding: 60px 0
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
 }
 
 .footer-adress {
