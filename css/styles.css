@@ -439,6 +439,7 @@ color: var(--primary-title-color);
 
 .buttons {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
