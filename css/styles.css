@@ -395,7 +395,7 @@ color: var(--second-text-color);
 }
 
 .footer-list .footer-item + .footer-item {
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 
